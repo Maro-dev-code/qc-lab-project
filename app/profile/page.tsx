@@ -26,7 +26,7 @@ export default function ProfilePage() {
       <Navbar />
 
       {/* BREADCRUMB */}
-      <div className="px-[var(--spacing-32)] py-[var(--spacing-8)] border-b border-[var(--color-border-light)] bg-white">
+      <div className="pl-64 py-[var(--spacing-8)] border-b border-[var(--color-border-light)] bg-white px-8">
         <div className="flex items-center gap-2 text-sm text-[var(--color-text-500)]">
           <span>Home</span>
           <span>›</span>
@@ -35,10 +35,10 @@ export default function ProfilePage() {
       </div>
 
       {/* PAGE BODY */}
-      <div className="flex items-stretch min-h-[calc(100vh-130px)]">
+      <div className="flex items-stretch min-h-[calc(100vh-130px)] ml-0 w-full">
 
         {/* SIDEBAR — touches left edge, full height */}
-        <div className="w-64 flex-shrink-0 bg-white border-r border-[var(--color-border-light)]">
+        <div className="w-64 flex-none bg-white border-r border-[var(--color-border-light)]">
           <Sidebar />
         </div>
 
